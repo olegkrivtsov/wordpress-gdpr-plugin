@@ -122,7 +122,7 @@ class WordPress_Gdpr_Plugin {
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-wordpress-gdpr-plugin-public.php';
 
-		$this->loader = new Plugin_Name_Loader();
+		$this->loader = new Wordpress_Gdpr_Plugin_Loader();
 
 	}
 

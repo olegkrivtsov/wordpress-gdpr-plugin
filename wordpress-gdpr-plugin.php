@@ -1,16 +1,28 @@
 <?php
-/*
-Plugin Name:  WordPress GDPR Plugin
-Plugin URI:   https://developer.wordpress.org/plugins/wordpress-gdpr-plugin/
-Description:  A simple WordPress plugin for displaying cookie usage notice on your website
-Version:      1.0.0
-Author:       Oleg Krivtsov
-Author URI:   https://github.com/olegkrivtsov
-License:      MIT
-License URI:  https://opensource.org/licenses/MIT
-Text Domain:  wordpress-gdpr-plugin
-Domain Path:  /languages
-*/
+/**
+ * WordPress GDPR plugin
+ *
+ * This file is read by WordPress to generate the plugin information in the plugin
+ * admin area. This file also includes all of the dependencies used by the plugin,
+ * registers the activation and deactivation functions, and defines a function
+ * that starts the plugin.
+ *
+ * @link              http://example.com
+ * @since             1.0.0
+ * @package           WordPress_Gdpr_Plugin
+ *
+ * @wordpress-plugin
+ * Plugin Name:       WordPress GDPR Plugin
+ * Plugin URI:        http://example.com/plugin-name-uri/
+ * Description:       A simple WordPress plugin that displays cookie usage notice on your website
+ * Version:           1.0.0
+ * Author:            Oleg Krivtsov
+ * Author URI:        http://example.com/
+ * License:           GPL-2.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * Text Domain:       wordpress-gdpr-plugin
+ * Domain Path:       /languages
+ */
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {

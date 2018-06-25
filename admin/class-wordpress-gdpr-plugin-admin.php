@@ -20,7 +20,7 @@
  * @subpackage Plugin_Name/admin
  * @author     Your Name <email@example.com>
  */
-class Plugin_Name_Admin {
+class WordPress_Gdpr_Plugin_Admin {
 
 	/**
 	 * The ID of this plugin.
