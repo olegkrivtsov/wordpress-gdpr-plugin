@@ -31,12 +31,12 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Current plugin version.
  */
-define( 'PLUGIN_NAME_VERSION', '1.0.0' );
+define( 'WORDPRESS_GDPR_PLUGIN_VERSION', '1.0.0' );
 
 /**
  * The code that runs during plugin activation.
  */
-function activate_plugin_name() {
+function activate_wordpress_gdpr_plugin() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-wordpress-gdpr-plugin-activator.php';
 	Plugin_Name_Activator::activate();
 }
@@ -44,7 +44,7 @@ function activate_plugin_name() {
 /**
  * The code that runs during plugin deactivation.
  */
-function deactivate_plugin_name() {
+function deactivate_wordpress_gdpr_plugin() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-wordpress-gdpr-plugin-deactivator.php';
 	Plugin_Name_Deactivator::deactivate();
 }
